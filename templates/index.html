@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Tool</title>
+</head>
+<body>
+    <h1>Survey Tool</h1>
+    <form action="/submit" method="POST">
+        <label for="age">Age: </label> 
+        <input type="number" id="age" name="age" required><br><br>
+
+
+        <label for="gender">Gender:</label>
+        <select name="gender" name="gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+
+
+        <label for="total_income">Total Income: </label>
+        <input type="number" id="total_income" name="total_income" step="0.01" required><br><br>
+
+
+        <h3>Expenses</h3>
+        <label for="utilities">Utilities: </label>
+        <input type="number" id="utilities" name="utilities" step="0.01"><br>
+
+
+        <label for="entertainment">Entertainment: </label>
+        <input type="number" id="entertainment" name="entertainment" step="0.01"><br>
+
+        <label for="school_fees">School Fees: </label>
+        <input type="number" id="school_fees" name="school_fees" step="0.01"><br>
+
+
+        <label for="shopping">Shopping: </label>
+        <input type="number" id="shopping" name="shopping" step="0.01"><br>
+
+
+        <label for="healthcare">Healthcare: </label>
+        <input type="number" id="healthcare" name="healthcare" step="0.01"><br><br>
+
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

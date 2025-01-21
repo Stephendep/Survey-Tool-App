@@ -1,0 +1,8 @@
+testing.pem
+venv
+.ipynb_checkpoints
+*.png
+*.pyc
+
+
+
